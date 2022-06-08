@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Mercearia.Model
+﻿namespace Mercearia.Model
 {
     internal class Cliente
     {
@@ -12,5 +6,12 @@ namespace Mercearia.Model
         private string nome;
         private string cpf;
         private string email;
+
+        public Cliente(string nome, string cpf, string email)
+        {
+            this.nome = nome;
+            this.cpf = cpf;
+            this.email = email;
+        }
     }
 }

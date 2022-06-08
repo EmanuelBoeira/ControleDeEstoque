@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Mercearia.Model
+﻿namespace Mercearia.Model
 {
     internal class Fornecedor
     {
@@ -13,6 +7,11 @@ namespace Mercearia.Model
         private string cnpj;
         private string email;
 
-
+        public Fornecedor(string nome, string cnpj, string email)
+        {
+            this.nome = nome;   
+            this.cnpj = cnpj;   
+            this.email = email;
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 
 namespace Mercearia.View
 {
@@ -85,7 +85,7 @@ namespace Mercearia.View
 
             while (aux)
             {
-                Console.WriteLine("Escolha uma das opções:\n 1 - Adicionar Produto\n 2 - Editar registro de Produtos\n 3 - Excluir registro de Produtos\n 4 - Mostrar todos os Produtos\n 5 - Mostrar Produto por CPF\n 6 - voltar");
+                Console.WriteLine("Escolha uma das opções:\n 1 - Adicionar Produto\n 2 - Editar registro de Produto\n 3 - Excluir registro de Produto\n 4 - Mostrar todos os Produtos\n 5 - Mostrar Produto por nome\n 6 - voltar");
                 char resposta = Console.ReadLine()[0];
 
                 switch (resposta)
